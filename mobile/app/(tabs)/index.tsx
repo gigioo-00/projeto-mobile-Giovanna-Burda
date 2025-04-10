@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Platform } from 'react-native';
+import { Image, StyleSheet, Platform, Button } from 'react-native';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -8,16 +8,14 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
+      headerBackgroundColor={{ light: '#e5a0c6', dark: '#e5a0c6' }}
       headerImage={
         <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
         />
       }>
 
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Gipix</ThemedText>
+        <ThemedText type="title">GIPIX</ThemedText>
       
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -28,7 +26,19 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">saldo em conta</ThemedText>
         <ThemedText>
           R$ 1.000,00
-        </ThemedText>
+        </ThemedText><br></br>
+        <ThemedText type="subtitle">Pix</ThemedText>
+        <ThemedText>
+          <center>
+        <Button
+         onPress={() => {
+         console.log('You tapped the button!'); }}
+         title="Código / QRcode"
+/></center>
+        
+
+      </ThemedText><br></br>
+        
       </ThemedView>
       
     </ParallaxScrollView>

@@ -10,40 +10,37 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
+      headerBackgroundColor={{ light: '#e5a0c6', dark: '#e5a0c6' }}
       headerImage={
         <IconSymbol
-          size={310}
+          size={0}
           color="#808080"
           name="chevron.left.forwardslash.chevron.right"
           style={styles.headerImage}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Explore</ThemedText>
+        <ThemedText type="title">Histórico</ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
-      <Collapsible title="File-based routing">
+      <ThemedText></ThemedText>
+      <Collapsible title="TRANSFERÊNCIAS">
         <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+       
+          </ThemedText>
+        <ThemedText>{' '}
+          10/04 - <ThemedText type="defaultSemiBold">R$ 50,00<br></br></ThemedText>{' '}
+          11/04 - <ThemedText type="defaultSemiBold">R$ 40,00<br></br></ThemedText>{' '}
+          12/04 - <ThemedText type="defaultSemiBold">R$ 30,00<br></br></ThemedText>{' '}
+          13/04 - <ThemedText type="defaultSemiBold">R$ 20,00<br></br></ThemedText>{' '}
         </ThemedText>
-        <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
       </Collapsible>
-      <Collapsible title="Android, iOS, and web support">
+      <Collapsible title="PAGAR CONTA">
         <ThemedText>
           You can open this project on Android, iOS, and the web. To open the web version, press{' '}
           <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Images">
+      <Collapsible title="AGÊNCIA DA CONTA">
         <ThemedText>
           For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
           <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
