@@ -49,7 +49,7 @@ export default function HomeScreen() {
         <Button color={'#ff8da1'}
          onPress={() => {
          console.log('You tapped the button!'); }}
-         title="                                                            PAGAR                                                             "
+         title="                                                          EXTRATO                                                           "
 /></center>
 
 </ThemedText><br></br>
@@ -60,7 +60,7 @@ export default function HomeScreen() {
         <Button color={'#ff8da1'}
          onPress={() => {
          console.log('You tapped the button!'); }}
-         title="                                                       TRANSFERIR                                                              "
+         title="                                                    TRANSFERIR                                                           "
 /></center> 
 
 </ThemedText><br></br>
@@ -71,7 +71,7 @@ export default function HomeScreen() {
         <Button color={'#ff8da1'}
          onPress={() => {
          console.log('You tapped the button!'); }}
-         title="                                                       DEPOSITAR                                                             "
+         title="                                                        CARTÕES                                                              "
 /></center>
 
 </ThemedText><br></br>

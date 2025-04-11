@@ -21,15 +21,15 @@ export default function TabTwoScreen() {
       }>
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">O que você deseja fazer? ₊˚⊹♡</ThemedText>
-      </ThemedView><br></br> 
-      
-        <ThemedText type="subtitle">saldo disponível:</ThemedText>
+      </ThemedView><br></br>
+
+      <ThemedText type="subtitle">saldo disponível:</ThemedText>
 
       <ThemedText>R$1.000,00</ThemedText> <br></br>
       <Collapsible title="TRANSFERÊNCIAS">
         <ThemedText>
-       
-          </ThemedText>
+
+        </ThemedText>
         <ThemedText>{' '}
           10/04 - <ThemedText type="defaultSemiBold">R$ 50,00<br></br></ThemedText>{' '}
           11/04 - <ThemedText type="defaultSemiBold">R$ 40,00<br></br></ThemedText>{' '}
@@ -39,11 +39,11 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="METAS">
         <ThemedText>
-          
-           
-           RESERVA - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
-           COMPRAS - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
-           VIAGENS - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
+
+
+          RESERVA - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
+          COMPRAS - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
+          VIAGENS - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
 
         </ThemedText>
       </Collapsible>
@@ -52,11 +52,11 @@ export default function TabTwoScreen() {
           ENTRE EM CONTATO : (41) 9999-9999<br></br>
           EMAIL : gipix@gmail.com
         </ThemedText>
-        
+
       </Collapsible>
-      
-      
-      
+
+
+
     </ParallaxScrollView>
   );
 }
