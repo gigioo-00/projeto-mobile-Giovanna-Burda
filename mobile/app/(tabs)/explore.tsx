@@ -10,7 +10,7 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#e5a0c6', dark: '#e5a0c6' }}
+      headerBackgroundColor={{ light: '#ff8da1', dark: '#ff8da1' }}
       headerImage={
         <IconSymbol
           size={0}
@@ -20,9 +20,12 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Histórico</ThemedText>
-      </ThemedView>
-      <ThemedText></ThemedText>
+        <ThemedText type="title">O que você deseja fazer? ₊˚⊹♡</ThemedText>
+      </ThemedView><br></br> 
+      
+        <ThemedText type="subtitle">saldo disponível:</ThemedText>
+
+      <ThemedText>R$1.000,00</ThemedText> <br></br>
       <Collapsible title="TRANSFERÊNCIAS">
         <ThemedText>
        
@@ -34,60 +37,26 @@ export default function TabTwoScreen() {
           13/04 - <ThemedText type="defaultSemiBold">R$ 20,00<br></br></ThemedText>{' '}
         </ThemedText>
       </Collapsible>
-      <Collapsible title="PAGAR CONTA">
+      <Collapsible title="METAS">
         <ThemedText>
-          You can open this project on Android, iOS, and the web. To open the web version, press{' '}
-          <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
+          
+           
+           RESERVA - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
+           COMPRAS - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
+           VIAGENS - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
+
         </ThemedText>
       </Collapsible>
       <Collapsible title="AGÊNCIA DA CONTA">
         <ThemedText>
-          For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
-          different screen densities
+          ENTRE EM CONTATO : (41) 9999-9999<br></br>
+          EMAIL : gipix@gmail.com
         </ThemedText>
-        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
-        <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
+        
       </Collapsible>
-      <Collapsible title="Custom fonts">
-        <ThemedText>
-          Open <ThemedText type="defaultSemiBold">app/_layout.tsx</ThemedText> to see how to load{' '}
-          <ThemedText style={{ fontFamily: 'SpaceMono' }}>
-            custom fonts such as this one.
-          </ThemedText>
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
-      </Collapsible>
-      <Collapsible title="Light and dark mode components">
-        <ThemedText>
-          This template has light and dark mode support. The{' '}
-          <ThemedText type="defaultSemiBold">useColorScheme()</ThemedText> hook lets you inspect
-          what the user's current color scheme is, and so you can adjust UI colors accordingly.
-        </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
-      </Collapsible>
-      <Collapsible title="Animations">
-        <ThemedText>
-          This template includes an example of an animated component. The{' '}
-          <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
-          library to create a waving hand animation.
-        </ThemedText>
-        {Platform.select({
-          ios: (
-            <ThemedText>
-              The <ThemedText type="defaultSemiBold">components/ParallaxScrollView.tsx</ThemedText>{' '}
-              component provides a parallax effect for the header image.
-            </ThemedText>
-          ),
-        })}
-      </Collapsible>
+      
+      
+      
     </ParallaxScrollView>
   );
 }
