@@ -8,16 +8,16 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#ff8da1', dark: '#ff8da1' }}
+      headerBackgroundColor={{ light: '#8A04BD', dark: '#8A04BD' }}
       headerImage={
         <Image
-        source={require('@/assets/images/sim.png')}
+        source={require('@/assets/images/nubank.png')}
         style={styles.reactLogo}
         />
       }>
 
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">GIPIX (˵ •̀ ᴗ - ˵ ) ✧</ThemedText>
+        <ThemedText type="title">Olá, User.</ThemedText>
       
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -94,8 +94,8 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 350,
-    width: 776,
+    height: 250,
+    width: 400,
     bottom: 0,
     left: 0,
     position: 'absolute',

@@ -10,7 +10,7 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 export default function TabTwoScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#ff8da1', dark: '#ff8da1' }}
+      headerBackgroundColor={{ light: '#8A04BD', dark: '#8A04BD' }}
       headerImage={
         <IconSymbol
           size={0}
@@ -20,7 +20,7 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">O que você deseja fazer? ₊˚⊹♡</ThemedText>
+        <ThemedText type="title">O que você deseja fazer?</ThemedText>
       </ThemedView><br></br>
 
       <ThemedText type="subtitle">saldo disponível:</ThemedText>
@@ -49,8 +49,8 @@ export default function TabTwoScreen() {
       </Collapsible>
       <Collapsible title="AGÊNCIA DA CONTA">
         <ThemedText>
-          ENTRE EM CONTATO : (41) 9999-9999<br></br>
-          EMAIL : gipix@gmail.com
+          AGÊNCIA:<br></br>
+         
         </ThemedText>
 
       </Collapsible>
