@@ -35,7 +35,7 @@ export default function HomeScreen() {
         <ThemedText>
 
           <center>
-        <Button color={'#ff8da1'}
+        <Button color={'#8A04BD'}
          onPress={() => {
          console.log('You tapped the button!'); }}
          title="                                                               PIX                                                                "
@@ -46,7 +46,7 @@ export default function HomeScreen() {
 <ThemedText>
 
 <center>
-        <Button color={'#ff8da1'}
+        <Button color={'#8A04BD'}
          onPress={() => {
          console.log('You tapped the button!'); }}
          title="                                                          EXTRATO                                                           "
@@ -57,10 +57,10 @@ export default function HomeScreen() {
 <ThemedText>
 
 <center>
-        <Button color={'#ff8da1'}
+        <Button color={'#8A04BD'}
          onPress={() => {
          console.log('You tapped the button!'); }}
-         title="                                                    TRANSFERIR                                                           "
+         title="                                                      TRANSFERIR                                                         "
 /></center> 
 
 </ThemedText><br></br>
@@ -68,16 +68,23 @@ export default function HomeScreen() {
 <ThemedText>
 
 <center>
-        <Button color={'#ff8da1'}
+        <Button color={'#8A04BD'}
          onPress={() => {
          console.log('You tapped the button!'); }}
-         title="                                                        CARTÕES                                                              "
+         title="                                                        CARTÕES                                                             "
 /></center>
 
 </ThemedText><br></br>
-
-        
+</ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">FATURAS EM ABERTO</ThemedText>
       </ThemedView>
+      <center>
+        <Button color={'#8A04BD'}
+         onPress={() => {
+         console.log('You tapped the button!'); }}
+         title="                                                        VIZUALIZAR                                                             "
+/></center>
       
     </ParallaxScrollView>
   );

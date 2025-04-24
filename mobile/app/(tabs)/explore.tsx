@@ -1,4 +1,4 @@
-import { StyleSheet, Image, Platform } from 'react-native';
+import { StyleSheet, Image, Platform, Button } from 'react-native';
 
 import { Collapsible } from '@/components/Collapsible';
 import { ExternalLink } from '@/components/ExternalLink';
@@ -37,20 +37,32 @@ export default function TabTwoScreen() {
           13/04 - <ThemedText type="defaultSemiBold">R$ 20,00<br></br></ThemedText>{' '}
         </ThemedText>
       </Collapsible>
-      <Collapsible title="METAS">
+      <Collapsible title="CAIXINHA">
         <ThemedText>
 
 
           RESERVA - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
           COMPRAS - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
           VIAGENS - <ThemedText type="defaultSemiBold">R$ 500,00<br></br></ThemedText>
+          
+        <Button color={'#8A04BD'}
+         onPress={() => {
+         console.log('You tapped the button!'); }}
+         title="RESGATAR"
+/>
+         <Button color={'#8A04BD'}
+         onPress={() => {
+         console.log('You tapped the button!'); }}
+         title="ADICIONAR"
+/>
 
         </ThemedText>
       </Collapsible>
       <Collapsible title="AGÊNCIA DA CONTA">
         <ThemedText>
-          AGÊNCIA:<br></br>
-         
+          AGÊNCIA:1234<br></br>
+          NÚMERO DA CONTA: 12345678-9<br></br>
+          TIPO DE CONTA: 013
         </ThemedText>
 
       </Collapsible>
